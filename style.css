@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+:root {
+    /* Primary Text */
+    --Very-dark-desaturated-blue: hsl(238, 29%, 16%);
+    --Soft-red: hsl(14, 88%, 65%);
+
+    /* Gradient Background gradient: */
+    --Soft-violet: hsl(273, 75%, 66%);
+    --Soft-blue: hsl(240, 73%, 65%);
+
+    /* Neutral Text */
+    --Very-dark-grayish-blue: hsl(237, 12%, 33%);
+    --Dark-grayish-blue: hsl(240, 6%, 50%);
+
+    /* Dividers */
+    --Light-grayish-blue: hsl(240, 5%, 91%);
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 100px 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom,var(--Soft-violet), var(--Soft-blue) );
+    font-family: 'Kumbh Sans';
+}
+.card {
+    position: relative;
+    z-index: 1;
+    border-radius: 1rem;
+    max-width: 350px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card h1 {
+    margin: 1rem 0;
+    color: var(--Very-dark-desaturated-blue);
+}
+.imagem-principal {
+    position: absolute;
+    top: 0;
+    width: 80%;
+    transform: translateY(-58%);
+    z-index: 2;
+}
+.questionario {
+    padding: 0rem 1.5rem;
+    margin-bottom: 3rem;
+}
+.perguntas {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    color: var(--Very-dark-grayish-blue);
+    padding: 1rem 0;
+    border-bottom: 1px solid var(--Light-grayish-blue);
+}
+.respostas {
+    display: none;
+}
+p img {
+    width: 8px;
+    height: 8px;
+    cursor: pointer;
+}
+/* .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); } */
