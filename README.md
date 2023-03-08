@@ -39,7 +39,7 @@ Os usuários devem ser capazes de:
 
 ### Links
 
-- URL: [Clique aqui e veja o resultado](https://3-column-preview-card-component-red-two.vercel.app/)
+- URL: [Clique aqui e veja o resultado](https://faq-accordion-card-main-virid.vercel.app/)
 
 ## Meu progresso
 
@@ -52,10 +52,10 @@ Os usuários devem ser capazes de:
 
 ### O que eu aprendi
 
-Mesmo tendo conhecimento em como utilizar media queries, algumas questões surgem durante o processo de desenvolvimento. No entanto, ao praticar e aprimorar essas habilidades, percebo que estou gradativamente refinando minhas técnicas, o que é extremamente positivo para meu progresso profissional.
+Certa dificuldade foi encontrada ao tentar manipular a posição das imagens. Creio que tenha sido o maior desafio. Além disso, é difícil fazer com que uma parte da imagem fique ocultada pela parte de fora do cartão, simulando como se estivesse atrás dele. Ainda não consegui fazer isso e vou pesquisar mais. Pensei que seria possível usando 'z-index', mas pelo visto não é.
 
 ### Fontes úteis
-- Para remover e adicionar classes tive certa dificuldade, o que me levou a consultar esse site https://horadecodar.com.br/2020/07/12/como-mudar-a-classe-de-um-elemento-com-javascript/.
+- Para remover e adicionar classes usando javascript tive certa dificuldade, o que me levou a consultar esse site https://horadecodar.com.br/2020/07/12/como-mudar-a-classe-de-um-elemento-com-javascript/.
 
 
 ## Autor

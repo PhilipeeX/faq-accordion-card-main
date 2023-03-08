@@ -29,7 +29,7 @@ body {
     background: linear-gradient(to bottom,var(--Soft-violet), var(--Soft-blue) );
     font-family: 'Kumbh Sans';
 }
-@media only screen and (max-width: 1440px) {
+@media only screen and (max-width: 1280px) {
     .card {
         margin: 20vh 0;
         min-height: 450px;
@@ -108,7 +108,7 @@ body {
         align-self: flex-start;
     }   
 }
-@media only screen and (min-width: 1441px) {
+@media only screen and (min-width: 1281px) {
     .card {
         border-radius: 2rem;
         width: 1080px;
@@ -163,6 +163,7 @@ body {
         display: flex;
         justify-content: space-between;
         padding: 1rem 1rem 1rem 0;
+        cursor: pointer;
     }
     .pergunta-resposta {
         display: flex;
